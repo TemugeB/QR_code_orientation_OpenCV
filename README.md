@@ -20,3 +20,5 @@ If you want to use a webcam, call the function with the camera id. For example, 
 ```
 python run_qr.py 0
 ```
+
+It is recommended that you keep your image resolution low (480p). If you want to use high resolution, resize the image to low resolution right before ```qr.detect()``` call and then rescale back to your full resolution.
